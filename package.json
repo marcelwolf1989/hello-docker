@@ -1,0 +1,29 @@
+{
+  "name": "hello-docker-v1",
+  "version": "1.0.0",
+  "description": "Demo App for bundeling in docker.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelwolf1989/hello-docker-v1.git"
+  },
+  "keywords": [
+    "demo",
+    "test",
+    "app",
+    "express"
+  ],
+  "author": "Marcel Wolf marcel.wolf@hiscale.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelwolf1989/hello-docker-v1/issues"
+  },
+  "homepage": "https://github.com/marcelwolf1989/hello-docker-v1#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
